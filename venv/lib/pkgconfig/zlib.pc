@@ -1,0 +1,13 @@
+prefix=/Users/sau24k/Documents/ATS/venv
+exec_prefix=/Users/sau24k/Documents/ATS/venv
+libdir=/Users/sau24k/Documents/ATS/venv/lib
+sharedlibdir=/Users/sau24k/Documents/ATS/venv/lib
+includedir=/Users/sau24k/Documents/ATS/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
